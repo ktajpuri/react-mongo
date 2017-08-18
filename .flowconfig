@@ -1,0 +1,11 @@
+[ignore]
+.*/node_modules/.*
+
+[options]
+esproposal.class_instance_fields=enable
+module.name_mapper='\(.+\)' -> '<PROJECT_ROOT>/src/\1'
+module.name_mapper='classnames' -> '<PROJECT_ROOT>/src/stub'
+module.name_mapper='prop-types' -> '<PROJECT_ROOT>/src/stub'
+module.name_mapper='react-autobind' -> '<PROJECT_ROOT>/src/stub'
+module.name_mapper='react-select' -> '<PROJECT_ROOT>/src/stub'
+module.name_mapper='react-transition-group/TransitionGroup' -> '<PROJECT_ROOT>/src/stub'
